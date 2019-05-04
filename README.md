@@ -104,12 +104,22 @@ Go to [http://localhost:4000](http://localhost:4000) to find the web app or api
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Procedure on how to deploy on heroku as a live system. I choosed installation through the command line because it was easier for me than the web based view.
+
+    install heroku cli for windows and linux users
+```
+heroku login
+heroku create --region eu your_appname # creates app in eu region, common regions: eu, us
+heroku buildpacks:set heroku/python # set python buildpack
+git push heroku master # deploy app to heroku
+heroku logs --tail # If for some reason it’s not working, check the logs
+```
 
 ## Built With
 
 * [Docker](https://www.docker.com/) - Container development tool
 * [Flask](https://maven.apache.org/) - The web framework used
+* [Heroku](https://www.heroku.com/) - Platform
 
 ## Contributing
 
