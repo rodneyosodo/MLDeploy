@@ -27,7 +27,7 @@ mkdir Big4
 cd Big4
 virtualenv --no-site-packages venv
 venv\Scripts\activate
-git clone https://github.com/0x6f736f646f/Big4Trendanalysis.git
+git clone https://github.com/0x6f736f646f/MLDeploy.git
 cd Big4Trendanalysis
 ```
 
@@ -38,7 +38,7 @@ mkdir Big4
 cd Big4
 virtualenv --no-site-packages venv
 .venv/bin/activate
-git clone https://github.com/0x6f736f646f/Big4Trendanalysis.git
+git clone https://github.com/0x6f736f646f/MLDeploy.git
 cd Big4Trendanalysis
 ```
 
