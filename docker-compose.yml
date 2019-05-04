@@ -2,8 +2,8 @@ version: "3"
 
 services:
   webapp:
-    build: .
-    #image: rodneydav/big4trendanalysis:2.0
+    #build: .
+    image: rodneydav/big4trendanalysis:2.0
     #volumes:
     #  - .:/var/www/html
     ports:
@@ -18,6 +18,4 @@ services:
           memory: 100M
       restart_policy:
         condition: on-failure
-
-        version: "3"
 
