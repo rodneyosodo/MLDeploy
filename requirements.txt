@@ -13,7 +13,7 @@ MarkupSafe==1.1.1
 matplotlib
 nltk==3.4.3
 numpy==1.16.4
-oauthlib==3.0.1
+oauthlib==3.0.2
 pandas==0.24.2
 pycodestyle==2.5.0
 pyparsing==2.4.0
