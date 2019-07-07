@@ -1,6 +1,6 @@
 ﻿aniso8601==7.0.0
 autopep8==1.4.4
-certifi==2019.3.9
+certifi==2019.6.16
 chardet==3.0.4
 Click==7.0
 cycler==0.10.0
