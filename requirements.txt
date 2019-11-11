@@ -12,7 +12,7 @@ kiwisolver==1.1.0
 MarkupSafe==1.1.1
 matplotlib
 nltk==3.4.5
-numpy==1.17.2
+numpy==1.17.4
 oauthlib==3.0.1
 pandas==0.24.2
 pycodestyle==2.5.0
