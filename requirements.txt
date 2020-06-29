@@ -5,7 +5,7 @@ chardet==3.0.4
 Click==7.1.2
 cycler==0.10.0
 Flask==1.1.2
-idna==2.9
+idna==2.10
 itsdangerous==1.1.0
 Jinja2==2.11.2
 kiwisolver==1.2.0
