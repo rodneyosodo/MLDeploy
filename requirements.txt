@@ -14,7 +14,7 @@ matplotlib
 numpy==1.19.1
 nltk==3.5
 oauthlib==3.1.0
-pandas==1.1.0
+pandas==1.1.2
 pycodestyle==2.6.0
 pyparsing==2.4.7
 PySocks==1.7.1
