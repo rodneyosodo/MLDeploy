@@ -1,0 +1,28 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: nltk
+    versions:
+    - 3.6.1
+  - dependency-name: aniso8601
+    versions:
+    - 8.1.0
+    - 8.1.1
+    - 9.0.0
+  - dependency-name: numpy
+    versions:
+    - 1.19.5
+    - 1.20.0
+    - 1.20.1
+  - dependency-name: urllib3
+    versions:
+    - 1.26.3
+  - dependency-name: pytz
+    versions:
+    - "2020.5"
