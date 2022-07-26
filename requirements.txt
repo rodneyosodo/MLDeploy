@@ -27,6 +27,6 @@ singledispatch==3.6.1
 six==1.16.0
 sklearn==0.0
 tweepy==3.10.0
-urllib3==1.26.4
+urllib3==1.26.11
 Werkzeug==2.0.1
 gunicorn
