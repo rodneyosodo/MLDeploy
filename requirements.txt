@@ -1,4 +1,4 @@
-﻿aniso8601==9.0.1
+aniso8601==9.0.1
 certifi==2020.12.5
 autopep8==1.5.7
 chardet==4.0.0
@@ -28,5 +28,5 @@ six==1.16.0
 sklearn==0.0
 tweepy==3.10.0
 urllib3==1.26.4
-Werkzeug==2.0.1
+Werkzeug==2.2.3
 gunicorn
